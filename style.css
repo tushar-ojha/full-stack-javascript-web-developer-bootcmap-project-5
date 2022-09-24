@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: Poppins;
+}
+
+body {
+    height: 94vh;
+    background-image: url(assets/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 94vh;
+}
+
+/* Navigation section */
+.navbar {
+   background-color: black;
+   color: white;
+   height: 10%;
+}
+
+.logo-container, .line, .grow-list, .list-item, .button-small-container {
+    display: inline-block;
+}
+
+.logo-container > img {
+   width: 100px;
+   margin: 15px;
+}
+
+.line {
+    height: 50px;
+    width: 1px;
+    background-color: white;
+    margin-bottom: 4px;
+}
+
+.grow-list {
+    width: 60%;
+    vertical-align: top;
+    margin: 1.5%;
+}
+
+.list-item {
+    margin-left: 10%;
+}
+
+.list-item:hover {
+    cursor: pointer;
+}
+
+.button-small-container {
+    width: 20%;
+    vertical-align: top;
+    margin-top: 1.5%;
+    text-align: right;
+}
+
+.button-small-container > button {
+    background-color: #ba0cc5;
+    color: white;   
+    height: 2rem;
+    width: 8rem;
+    border-radius: 5px;
+}
+
+.button-small-container > button:hover {
+    cursor: pointer;
+}
+/* Navigation section ends here */
+
+/* Hero section */
+.hero {
+    color: white;
+    height: 90%;
+    text-align: center;
+    
+}
+
+.hero-heading {
+    margin-top: 10%;
+    font-size: 4rem;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.hero-description {
+    font-size: 1.5rem;
+}
+
+.button-large {
+    background-color:#ba0cc5;
+    border: none;
+    height: 3rem;
+    width: 15rem;
+    margin-top: 2rem;
+    color: white;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.button-large:hover {
+    cursor: pointer;
+}
+/* Hero section ends here */
